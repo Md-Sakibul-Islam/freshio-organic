@@ -343,3 +343,45 @@ body {
 }
 
 /* hero section css end  */
+
+/* about area css start  */
+.about-area{
+padding: 110px 0;
+}
+.about-area .about-img{
+
+}
+
+.about-area .about-content .sub-title{
+    color: var(--primary-green);
+    font-weight: 500;
+}
+.about-area .about-content .about-heading{
+    margin-top: 14px;
+    color: var(--dark-green);
+    font-weight: 700;
+
+}
+.about-area .about-content .about-text{
+    margin: 30px 0;
+    line-height: 27px;
+
+}
+.about-area .about-content .founder{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about-area .about-content .founder img{
+    width: 84px;
+    height: 84px;
+}
+
+.about-area .about-content .founder-text .founder-name{
+    font-weight: 700;
+    color: var(--dark-green);
+}
+.about-area .about-content .founder-text .founder-position{
+    color: var(--primary-green);
+}
+/* about area css end  */
