@@ -1,29 +1,97 @@
 /* extra small  */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
+  /* header extra small css start  */
+  .header-area .header-top .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
- }
+.header-area .header-top .header-right .header-nav li a {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 10px;
+  color: var(--white);
+  transition: all 0.3s;
+}
+.header-area .header-top .header-right .header-nav li:first-child a {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0;
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+/* navbar start  */
+.header-area .navbar {
+  margin: 20px 0 20px 0;
+  background-color: var(--white);
+}
+
+.header-area .navbar .navbar-nav {
+  margin: 0;
+}
+
+.header-area .navbar .navbar-nav .nav-item {
+  margin: 10px 0;
+}
+
+/* navbar css end  */
+
+/* header extra small css end  */
+
+}
 
 /* small  */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+
+  /* navbar start  */
+  .header-area .navbar {
+    margin: 20px 0 20px 0;
+    background-color: var(--white);
   }
 
-/* medium  */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+  .header-area .navbar .navbar-nav {
+    margin: 0;
+  }
 
- }
+  .header-area .navbar .navbar-nav .nav-item {
+    margin: 10px 0;
+  }
+  /* navbar css end  */
+
+
+}
+
+/* medium  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* navbar start  */
+  .header-area .navbar {
+    margin: 20px 0 20px 0;
+    background-color: var(--white);
+  }
+
+  .header-area .navbar .navbar-nav {
+    margin: 0;
+  }
+
+  .header-area .navbar .navbar-nav .nav-item {
+    margin: 10px 0;
+  }
+
+  /* navbar end  */
+
+}
 
 /* large  */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* extra large  */
-@media (min-width: 1200px) and (max-width:1399.98px) { 
-
-}
+@media (min-width: 1200px) and (max-width:1399.98px) {}
 
 /* extra extra large  */
-@media (min-width:1400px) {
-    
-}
+@media (min-width:1400px) {}
