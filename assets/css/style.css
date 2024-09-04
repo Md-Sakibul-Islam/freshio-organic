@@ -508,6 +508,31 @@ body {
 .product-area .product-card .cart-btn i{
    font-size: 12px;
 }
+.product-area .explore-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.product-area .explore-btn a{
+    display: inline-block;
+    margin-left: 33px;
+    margin-right: 17px;
+    padding: 10px 14px;
+    color: var(--primary-green);
+    border: 1px solid var(--primary-green);
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.product-area .explore-btn a i{
+    font-size: 12px;
+
+}
+.product-area .explore-btn a:hover{
+    color:var(--white);
+    background-color: var(--primary-green);
+}
 /* product-area css end  */
 
 .line-heightY {

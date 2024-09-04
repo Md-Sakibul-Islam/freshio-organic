@@ -265,17 +265,81 @@
                 <span class="product-subtitle">Latest Arrivals</span>
                 <h3 class="product-heading"> New Products </h3>
                 <div class="product-button">
-                    <button>All</button>
-                    <button>Vegetables</button>
-                    <button>Fruits</button>
-                    <button>Bread</button>
+                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter=".vegetable">Vegetables</button>
+                    <button type="button" data-filter=".fruit">Fruits</button>
+                    <button type="button" data-filter=".bread" >Bread</button>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
+            <div class="row mix-container">
+                <div class="col-lg-3 col-md-6 mix vegetable" data-order="3">
                     <div class="product-card">
-                        <img src="assets/images/product/product1.png" alt="product">
+                        <img src="assets/images/product/vegatable1.jpg" alt="product">
+                        <div class="product-content">
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                            <span class="product-name">Potato</span>
+                            <h6 class="product-price">$45</h6>
+                            <hr>
+                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
+                                    class="fa-solid fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mix bread" data-order="3">
+                    <div class="product-card">
+                        <img src="assets/images/product/bread1.jpg" alt="product">
+                        <div class="product-content">
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                            <span class="product-name">Bread</span>
+                            <h6 class="product-price">$45</h6>
+                            <hr>
+                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
+                                    class="fa-solid fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mix vegetable" data-order="2">
+                    <div class="product-card">
+                        <img src="assets/images/product/vegatable2.jpg" alt="product">
+                        <div class="product-content">
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                            <span class="product-name">Onion</span>
+                            <h6 class="product-price">$40</h6>
+                            <hr>
+                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
+                                    class="fa-solid fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mix  bread " data-order="3">
+                    <div class="product-card">
+                        <img src="assets/images/product/bread4.jpg" alt="product">
+                        <div class="product-content">
+                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                            <span class="product-name">Biona Bread</span>
+                            <h6 class="product-price">$45</h6>
+                            <hr>
+                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
+                                    class="fa-solid fa-angle-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mix fruit" data-order="3">
+                    <div class="product-card">
+                        <img src="assets/images/product/fruits1.jpg" alt="product">
                         <div class="product-content">
                             <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -289,9 +353,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mix vegetable fruit" data-order="1">
                     <div class="product-card">
-                        <img src="assets/images/product/product2.png" alt="product">
+                        <img src="assets/images/product/fruits2.jpg" alt="product">
                         <div class="product-content">
                             <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -305,9 +369,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mix bread" data-order="2">
                     <div class="product-card">
-                        <img src="assets/images/product/product3.png" alt="product">
+                        <img src="assets/images/product/bread3.jpg" alt="product">
                         <div class="product-content">
                             <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -321,9 +385,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mix fruit" data-order="4">
                     <div class="product-card">
-                        <img src="assets/images/product/product4.png" alt="product">
+                        <img src="assets/images/product/fruits4.jpg" alt="product">
                         <div class="product-content">
                             <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -336,70 +400,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="product-card">
-                        <img src="assets/images/product/product5.png" alt="product">
-                        <div class="product-content">
-                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                            <span class="product-name">Boysenberry</span>
-                            <h6 class="product-price">$45</h6>
-                            <hr>
-                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
-                                    class="fa-solid fa-angle-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="product-card">
-                        <img src="assets/images/product/product6.png" alt="product">
-                        <div class="product-content">
-                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                            <span class="product-name">Boysenberry</span>
-                            <h6 class="product-price">$45</h6>
-                            <hr>
-                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
-                                    class="fa-solid fa-angle-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="product-card">
-                        <img src="assets/images/product/product7.png" alt="product">
-                        <div class="product-content">
-                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                            <span class="product-name">Boysenberry</span>
-                            <h6 class="product-price">$45</h6>
-                            <hr>
-                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
-                                    class="fa-solid fa-angle-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="product-card">
-                        <img src="assets/images/product/product8.png" alt="product">
-                        <div class="product-content">
-                            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                    class="fa-solid fa-star"></i></div>
-                            <span class="product-name">Boysenberry</span>
-                            <h6 class="product-price">$45</h6>
-                            <hr>
-                            <a href="#" class="cart-btn">ADD TO CART <i class="fa-solid fa-angle-right"></i> <i
-                                    class="fa-solid fa-angle-right"></i> </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="explore-btn text-center">
+                <span>Get hands on with our receipe ideas.
+                </span> <a href="#">Shop All <i class="fa-solid fa-angle-right"></i> <i
+                    class="fa-solid fa-angle-right"></i></a>
             </div>
 
         </div>
@@ -411,6 +417,7 @@
     <!-- js script link Stat  -->
     <script src="assets/js/jquery-1.12.4.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/script.js"></script>
