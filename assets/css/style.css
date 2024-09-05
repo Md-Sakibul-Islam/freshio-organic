@@ -638,6 +638,63 @@ body {
 
 /* testimonial-area css end  */
 
+.blog-area{}
+.blog-area .blog-content{}
+.blog-area .blog-subtitle{
+    color: var(--bg-pine-green);
+}
+.blog-area .blog-heading{
+    font-weight: 700;
+    color: var(--dark-green);
+}
+.blog-area .blog-card{
+    position: relative;
+    margin-bottom: 30px;
+}
+.blog-area .blog-card .blog-img{
+    overflow: hidden;
+}
+.blog-area .blog-card .blog-img img{
+    border-radius: 5px;
+    transform: scale(1);
+    transition: all 0.4s;
+}
+.blog-area .blog-card:hover img{
+    transform: scale(1.3);
+    
+}
+
+.blog-area .blog-card .blog-content{}
+.blog-area .blog-card .blog-meta{}
+.blog-area .blog-card span{
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.blog-area .blog-card .blog-card-heading{
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--dark-green);
+    font-weight: 700;
+}
+.blog-area .blog-card i{
+    font-size: 12px;
+}
+.blog-area .blog-card .blog-tags{
+    position: absolute;
+    bottom: 85px;
+    left: 25px;
+}
+.blog-area .blog-card .tags{
+    background-color: var(--bg-pine-green);
+    color: var(--white);
+    font-size: 12px;
+    padding: 8px;
+}
+.blog-area .blog-card .lifestyle{
+  margin-left: 15px;
+}
+
 .my-display{
     display: none;
 }
