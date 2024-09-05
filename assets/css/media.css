@@ -94,6 +94,36 @@ color: var(--white);
 
 /* hero end  */
 
+.about-area {
+  padding: 50px 0;
+}
+
+.about-area .about-content{
+  text-align: center;
+}
+.about-area .about-content .sub-title {
+  color: var(--primary-green);
+  font-weight: 500;
+}
+
+.about-area .about-content .about-heading {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.about-area .about-content .about-text {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 23px;
+}
+.about-area .about-content .founder {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* about area css end  */
+
 }
 
 /* small  */
@@ -116,6 +146,10 @@ color: var(--white);
   /* navbar css end  */
 
   /* hero start  */
+  .header-area .navbar {
+    margin: 10px 0;
+    
+  }
   .hero-area .hero-content .hero-heading {
     margin: 10px 0 30px 0;
     color: var(--white);
@@ -167,6 +201,42 @@ color: var(--white);
   color: var(--dark-green);
 }
   /* hero end  */
+
+  /* about area start  */
+.about-area {
+  padding: 80px 0;
+}
+
+.about-area .about-content{
+  text-align: center;
+}
+.about-area .about-content .sub-title {
+  color: var(--primary-green);
+  font-weight: 500;
+}
+
+.about-area .about-content .about-heading {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.about-area .about-content .about-text {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 23px;
+}
+.about-area .about-content .founder {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+/* about area css end  */
 
 
 }
@@ -231,6 +301,32 @@ color: var(--white);
 }
   /* hero end  */
 
+/* about area css start  */
+.about-area {
+  padding: 90px 0;
+}
+
+.about-area .about-content .sub-title {
+  color: var(--primary-green);
+  font-weight: 500;
+}
+
+.about-area .about-content .about-heading {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.about-area .about-content .about-text {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 23px;
+}
+
+
+/* about area css end  */
+
+
+
 }
 
 /* large  */
@@ -238,17 +334,11 @@ color: var(--white);
 
 
 /* hero section css start  */
-.hero-area {
-   
-}
-
-.hero-area .hero-slider {}
 
 .hero-area .hero-slider .hero-item {
     position: relative;
 }
 
-.hero-area .hero-content {}
 
 .hero-area .hero-content-inner {
     position: absolute;
@@ -344,6 +434,51 @@ color: var(--white);
 }
 
 /* hero section css end  */
+/* about area css start  */
+.about-area {
+  padding: 110px 0;
+}
+
+
+.about-area .about-content .sub-title {
+  color: var(--primary-green);
+  font-weight: 500;
+}
+
+.about-area .about-content .about-heading {
+  font-size: 34px;
+  margin-top: 14px;
+  color: var(--dark-green);
+  font-weight: 700;
+
+}
+
+.about-area .about-content .about-text {
+  margin: 15px 0;
+  line-height: 27px;
+}
+
+.about-area .about-content .founder {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-area .about-content .founder img {
+  width: 84px;
+  height: 84px;
+}
+
+.about-area .about-content .founder-text .founder-name {
+  font-weight: 700;
+  color: var(--dark-green);
+}
+
+.about-area .about-content .founder-text .founder-position {
+  color: var(--primary-green);
+}
+
+/* about area css end  */
 
 
 }
