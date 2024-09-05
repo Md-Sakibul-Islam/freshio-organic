@@ -177,6 +177,12 @@ body {
     background-color: #E8F8F7;
     border-radius: 50%;
     padding: 10px;
+    transition: all 0.3s;
+}
+.header-area .action-badge .profile:hover {
+   
+    background-color: var(--primary-green);
+   
 }
 
 .header-area .action-badge img {
@@ -210,6 +216,13 @@ body {
     background-color: #F6F3E3;
     border-radius: 50%;
     padding: 10px;
+    transition: all 0.3s;
+}
+
+.header-area .action-badge .favorite:hover {
+    
+    background-color: var(--primary-green);
+    
 }
 
 .header-area .action-badge .favorite span {
@@ -245,6 +258,11 @@ body {
     background-color: #F6F3E3;
     border-radius: 50%;
     padding: 10px;
+    transition: all 0.3s;
+}
+
+.header-area .action-badge .shop .shop-bag:hover {
+   background-color: var(--primary-green);
 }
 
 .header-area .action-badge .shop span {

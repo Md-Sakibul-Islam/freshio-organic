@@ -32,4 +32,9 @@ $(document).ready(function () {
     nextArrow:'<button class="next"><i class="fa-solid fa-angle-left"></i> </button>',
   });
   // slick slider end
+
+  AOS.init({
+    delay: 300, 
+  duration: 1700,
+  });
 });
