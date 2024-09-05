@@ -258,9 +258,7 @@ body {
 /* header css end  */
 
 /* hero section css start  */
-.hero-area {
-   
-}
+.hero-area {}
 
 .hero-area .hero-slider {}
 
@@ -412,9 +410,7 @@ body {
 
 /* category-area css start  */
 
-.category-area {
-    
-}
+.category-area {}
 
 .category-area .category-inner {
     margin-bottom: 30px;
@@ -547,6 +543,61 @@ body {
 
 /* product-area css end  */
 
+/* offer area start  */
+.offer-area {
+    padding-bottom: 110px;
+}
+
+.offer-area .summery-sale {
+    background: url(../images/offer/summary.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.offer-area .offer-card .offer-content {
+    margin-bottom: 30px;
+    max-width: 315px;
+    padding: 43px 0 43px 40px;
+}
+
+.offer-area .offer-card .offer-content .offer-subtitle {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.offer-area .offer-card .offer-content .offer-heading {
+    margin: 16px 0 60px 0;
+    padding-right: 34px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.offer-area .offer-card .show-btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: var(--primary-green);
+    background-color: var(--white);
+    transition: all 0.3s;
+}
+
+.offer-area .offer-card .show-btn:hover {
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--primary-green);
+}
+
+.offer-area .offer-sale {
+    background: url(../images/offer/offer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+/* offer area end  */
 /* testimonial-area css start  */
 .testimonial-area {
     padding: 95px 0 78px 0;
@@ -566,9 +617,11 @@ body {
     border-radius: 50%;
 
 }
-.slick-dots li.slick-active button:before{
+
+.slick-dots li.slick-active button:before {
     color: transparent;
 }
+
 .testimonial-area .testimonial-inner .slick-dots li button {
     margin-top: 43px;
     background-color: var(--gray);
@@ -638,66 +691,159 @@ body {
 
 /* testimonial-area css end  */
 
-.blog-area{}
-.blog-area .blog-content{}
-.blog-area .blog-subtitle{
+.blog-area {
+    padding: 110px 0;
+}
+
+.blog-area .blog-content {
+    margin-bottom: 80px;
+
+}
+
+.blog-area .blog-subtitle {
     color: var(--bg-pine-green);
 }
-.blog-area .blog-heading{
+
+.blog-area .blog-heading {
+    margin-top: 13px;
     font-weight: 700;
     color: var(--dark-green);
 }
-.blog-area .blog-card{
+
+.blog-area .blog-card {
     position: relative;
     margin-bottom: 30px;
 }
-.blog-area .blog-card .blog-img{
+
+.blog-area .blog-card .blog-img {
     overflow: hidden;
 }
-.blog-area .blog-card .blog-img img{
+
+.blog-area .blog-card .blog-img img {
     border-radius: 5px;
     transform: scale(1);
     transition: all 0.4s;
 }
-.blog-area .blog-card:hover img{
+
+.blog-area .blog-card:hover img {
     transform: scale(1.3);
-    
+
 }
 
-.blog-area .blog-card .blog-content{}
-.blog-area .blog-card .blog-meta{}
-.blog-area .blog-card span{
+.blog-area .blog-card .blog-content {}
+
+.blog-area .blog-card .blog-meta {}
+
+.blog-area .blog-card span {
     font-size: 14px;
     color: var(--gray);
 }
 
-.blog-area .blog-card .blog-card-heading{
+.blog-area .blog-card .blog-card-heading {
     margin-top: 10px;
     font-size: 20px;
     color: var(--dark-green);
     font-weight: 700;
 }
-.blog-area .blog-card i{
+
+.blog-area .blog-card i {
     font-size: 12px;
 }
-.blog-area .blog-card .blog-tags{
+
+.blog-area .blog-card .blog-tags {
     position: absolute;
     bottom: 85px;
     left: 25px;
 }
-.blog-area .blog-card .tags{
+
+.blog-area .blog-card .tags {
     background-color: var(--bg-pine-green);
     color: var(--white);
     font-size: 12px;
     padding: 8px;
 }
-.blog-area .blog-card .lifestyle{
-  margin-left: 15px;
+
+.blog-area .blog-card .lifestyle {
+    margin-left: 15px;
 }
 
-.my-display{
-    display: none;
+
+.footer-area {
+    padding: 110px 0 65px 0;
+    background-color: var(--bg-green);
 }
-.line-heightY {
-    height: 1000px;
+
+.footer-area span {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.footer-area .address {
+    
+}
+
+.footer-area .address p {
+    font-size: 16px;
+    color: var(--gray);
+    margin: 16px 0;
+}
+
+.footer-area .address .mail-btn {
+    font-size: 16px;
+    color: var(--gray);
+    ;
+
+}
+.footer-area .information, .account{
+    margin-left: 70px;
+}
+.footer-area  .information .footer-bottom-menu {
+    margin-top: 6px;
+}
+.footer-area li{
+    margin: 10px 0;
+}
+.footer-area li a{
+    font-size: 16px;
+    color: var(--gray);
+    transition: all 0.3s;
+}
+.footer-area li:hover a{
+    font-size: 16px;
+    color: var(--primary-green);
+}
+
+.footer-area .sign-up .sign-subtitle{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.footer-area .sign-up .sign-btn {
+    position: relative;
+    padding: 10px 33px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+}
+.footer-area .sign-up{
+   position: relative;
+}
+.footer-area .sign-up form i{
+   position: absolute;
+   right: 25px;
+    top: 55%;
+}
+
+.footer-area .sign-up .sign-btn:hover{
+   outline: 0;
+
+}
+.footer-area .footer-copy{
+    margin-top: 150px;
+}
+.footer-area .footer-copy p{
+    color: var(--gray);
+}
+.footer-area .footer-copy span{
+    color: var(--primary-green);
 }
