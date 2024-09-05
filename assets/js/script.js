@@ -8,6 +8,15 @@ $(document).ready(function () {
     speed:1000,
     prevArrow: '<button class="prev"><i class="fa-solid fa-angle-right"></i> </button>',
     nextArrow:'<button class="next"><i class="fa-solid fa-angle-left"></i> </button>',
+    responsive:[
+      {
+        breakpoint:576,
+        settings:{
+          arrows:false,
+        }
+      }
+    ]
+    
   });
   // slick slider end
   var mixer = mixitup('.mix-container');

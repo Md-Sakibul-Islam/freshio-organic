@@ -90,7 +90,6 @@ body {
 /* common css end  */
 
 /* header css start  */
-.header-area {}
 
 /* header top start  */
 .header-area .header-top-wrapper {
@@ -111,8 +110,6 @@ body {
     font-size: 12px;
     color: var(--white);
 }
-
-.header-area .header-top .header-right .header-nav {}
 
 .header-area .header-top .header-right .header-nav li {
     display: inline-block;
@@ -262,7 +259,7 @@ body {
 
 /* hero section css start  */
 .hero-area {
-    display: none;
+   
 }
 
 .hero-area .hero-slider {}
