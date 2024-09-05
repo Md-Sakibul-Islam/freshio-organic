@@ -124,6 +124,30 @@ color: var(--white);
 
 /* about area css end  */
 
+/* product area css start  */
+.product-area {
+  padding: 60px 0;
+}
+.product-area .product-content .product-heading {
+  margin: 12px 0 20px 0;
+  font-weight: 700;
+}
+.product-area .product-button {
+  margin-bottom: 20px;
+}
+.product-area .product-button button {
+  padding: 7px 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 0;
+  margin-right: 8px;
+  transition: all 0.3s;
+}
+.product-area .explore-btn {
+  margin-top: 15px;
+}
+/* product area css end  */
+
 }
 
 /* small  */
@@ -231,13 +255,46 @@ color: var(--white);
   
 }
 
-
-
-
-
-
 /* about area css end  */
+/* product-area css start  */
+.product-area {
+  padding: 110px 0;
+  overflow: hidden;
+}
 
+.product-area .product-content {
+  color: var(--dark-green);
+}
+
+.product-area .product-content .product-heading {
+  font-size: 25px;
+  margin: 13px 0 15px 0;
+  
+}
+
+.product-area .product-button {
+  margin-bottom: 75px;
+}
+
+.product-area .product-button button {
+  padding: 8px 16px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 0;
+  margin-right: 14px;
+  transition: all 0.3s;
+}
+
+.product-area .product-button button:last-child {
+  margin-right: 0;
+}
+
+.product-area .product-button button:hover {
+  color: var(--white);
+  background-color: var(--bg-green);
+}
+
+/* product-area css end  */
 
 }
 
@@ -324,6 +381,46 @@ color: var(--white);
 
 
 /* about area css end  */
+
+/* product-area css start  */
+.product-area {
+  padding: 110px 0;
+  overflow: hidden;
+}
+
+.product-area .product-content {
+  color: var(--dark-green);
+}
+
+.product-area .product-content .product-heading {
+  font-size: 30px;
+  margin: 13px 0 17px 0;
+  
+}
+
+.product-area .product-button {
+  margin-bottom: 75px;
+}
+
+.product-area .product-button button {
+  padding: 8px 16px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 0;
+  margin-right: 14px;
+  transition: all 0.3s;
+}
+
+.product-area .product-button button:last-child {
+  margin-right: 0;
+}
+
+.product-area .product-button button:hover {
+  color: var(--white);
+  background-color: var(--bg-green);
+}
+
+/* product-area css end  */
 
 
 
