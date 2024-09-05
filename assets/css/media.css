@@ -95,7 +95,7 @@ color: var(--white);
 /* hero end  */
 
 .about-area {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 .about-area .about-content{
@@ -126,7 +126,7 @@ color: var(--white);
 
 /* product area css start  */
 .product-area {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 .product-area .product-content .product-heading {
   margin: 12px 0 20px 0;
@@ -166,6 +166,9 @@ color: var(--white);
 
 
 /* offer -area  */
+.offer-area {
+  padding-bottom: 50px;
+}
 .offer-area .offer-card .offer-content .offer-heading {
   font-size: 25px;
   margin: 14px 0 25px 0;
@@ -184,7 +187,9 @@ color: var(--white);
 }
 /* offer -area end  */
 
-.blog-area{}
+.blog-area {
+  padding-bottom: 50px;
+}
 
 .blog-area .blog-card{
     margin-bottom: 30px;
@@ -391,6 +396,9 @@ color: var(--white);
 /* testimonial-area end  */
 
 /* offer -area  */
+.offer-area {
+  padding-bottom: 70px;
+}
 .offer-area .offer-card .offer-content .offer-heading {
   font-size: 26px;
   margin: 14px 0 50px 0;
@@ -399,6 +407,9 @@ color: var(--white);
   font-weight: 700;
 }
 /* offer -area end  */
+.blog-area{
+  padding: 80px 0;
+}
 .footer-area{
   text-align: center;
 }
@@ -414,6 +425,9 @@ color: var(--white);
   right: 150px;
   top: 55%;
 }
+.footer-area .footer-copy {
+  margin-top: 140px;
+}
 
 }
 
@@ -421,9 +435,9 @@ color: var(--white);
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* navbar start  */
   .header-area .navbar {
-    margin: 20px 0 20px 0;
+    margin:8px 0;
     background-color: var(--white);
-  }
+}
 
   .header-area .navbar .navbar-nav {
     margin: 0;
@@ -479,7 +493,7 @@ color: var(--white);
 
 /* about area css start  */
 .about-area {
-  padding: 90px 0;
+  padding: 80px 0;
 }
 
 .about-area .about-content .sub-title {
@@ -504,10 +518,9 @@ color: var(--white);
 
 /* product-area css start  */
 .product-area {
-  padding: 110px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
-
 .product-area .product-content {
   color: var(--dark-green);
 }
@@ -519,9 +532,8 @@ color: var(--white);
 }
 
 .product-area .product-button {
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
-
 .product-area .product-button button {
   padding: 8px 16px;
   border-radius: 30px;
@@ -539,10 +551,19 @@ color: var(--white);
   color: var(--white);
   background-color: var(--bg-green);
 }
-
+.product-area .explore-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
 /* product-area css end  */
 
 /* offer -area  */
+.offer-area {
+  padding-bottom: 80px;
+}
 .offer-area .offer-card .offer-content .offer-heading {
   font-size: 26px;
   margin: 16px 0 50px 0;
@@ -562,7 +583,9 @@ color: var(--white);
 }
 
 /* testimonial-area css end  */
-.blog-area{}
+.blog-area{
+  margin: 0;
+}
 
 /* blog css end  */
 .footer-area .information{
@@ -580,6 +603,10 @@ color: var(--white);
   right: 25px;
   top: 55%;
 }
+.footer-area .footer-copy {
+  margin-top: 120px;
+}
+
 }
 
 /* large  */
