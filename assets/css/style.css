@@ -549,7 +549,6 @@ body {
 
 /* testimonial-area css start  */
 .testimonial-area {
-    display: none;
     padding: 95px 0 78px 0;
     background-image: url(../images/testimonial/testimonial-bg.png);
     background-repeat: no-repeat;
@@ -618,7 +617,7 @@ body {
     border: 0;
     position: absolute;
     right: 0;
-    top: 40%;
+    top: 50%;
     z-index: 11;
     color: var(--dark-green);
 }
@@ -632,7 +631,7 @@ body {
     border: 0;
     position: absolute;
     left: 0;
-    top: 40%;
+    top: 50%;
     z-index: 11;
     color: var(--dark-green);
 }
